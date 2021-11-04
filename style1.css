@@ -1,62 +1,58 @@
 body {
-    background:url("background.jpg") no-repeat;
-    background-attachment: fixed;
     font-family: "Tahoma";
-
+    margin:0;
 }
 a {
-    color: white;
+    color: rgb( 0,0,0);
     text-decoration: none;
 }
+
 a:visited {
-    color: #727171;
+    color: #b9b4b4;
     text-decoration: none;
 }
+
 a:hover {
-    color: #727171;
-}
-header {
-    margin: auto;
-    background-color: #b97c7c;
-    height: 165px;
-    width: 94%;
-    border-radius: 40px 10px;
-    box-shadow: 2px 4px 20px #201c1c;
+    color: #5b5858;
 }
 .header-container {
-    margin: 18px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #41525a;
+    height: 149px;
+    box-shadow: 2px 4px 20px #201c1c;
 }
 .logo {
-    float: left;
+    float:left;
+    display: inline-block;
     width: 130px;
     height:110px;
-    padding-top: 56px;
-    position: absolute;
-    left: 29px;
+    padding-top: 40px;
 }
+
 .name{
-    float: left;
-    margin-left: 30px;
-    padding: 0px 0px 0px 0px;
-    font-size: 50px;
-    font-weight: normal;
     color: #fef6a4;
+    padding-top: 75px;
+    font-size:70px;
 }
+
 .topnav {
     background-color: #41525a;
     overflow: hidden;
     max-width: 960px;
+    height: 38px;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 2px 4px 20px #201c1c
+    box-shadow: 2px 4px 20px #201c1c;
+    justify-content: center;
+    text-align: center;
 }
 .topnav a {
-    float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+    padding: 15px 15px;
+    font-size: 20px;
     border-radius: 5px;
 }
 .topnav a:hover {
@@ -67,29 +63,29 @@ header {
     background-color: #a19595;
     color: white;
 }
-table {
-    color: white;
-    border: 1px solid rgba(0, 0, 0, 0);
+table{
     width: 600px;
+    border-collapse: collapse;
 }
-table tr:nth-child(2n) {
+tr:nth-child(2n) {
     background-color: rgb(157, 97, 97);
 }
-table tr:nth-child(2n+1) {
+tr:nth-child(2n+1) {
     background-color: rgb(180, 117, 110);
+
 }
 th{
     background: #42555c;
-    font-size: small ;
+
 }
 footer{
-    background-color: #705d63;
+    background-color: #41525a;
     height: 95px;
 }
 .bottom {
     margin: 0px;
     float: right;
-    color: #cea893;
+    color: #fef6a4;
     font-size: 15px;
     font-weight: bold;
     padding-right: 30px;
