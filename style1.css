@@ -1,5 +1,5 @@
 body {
-    font-family: Tahoma sans-serif sans-serif;
+    font-family: "Tahoma", sans-serif;
     margin:0;
 }
 a {
@@ -31,11 +31,8 @@ a:hover {
 .header-container {
     margin: auto;
     width: 960px;
-
     height: 150px;
-
     position: relative;
-
 }
 .logo {
     display: inline-block;
