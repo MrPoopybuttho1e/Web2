@@ -31,9 +31,9 @@ a:hover {
 .header-container {
     margin: auto;
     width: 960px;
-    background-color: #41525a;
+
     height: 150px;
-    box-shadow: 2px 4px 20px #201c1c;
+
     position: relative;
 
 }
