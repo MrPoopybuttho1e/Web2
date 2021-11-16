@@ -83,7 +83,6 @@ a:hover {
 }
 table{
     width: 600px;
-    border-collapse: collapse;
 }
 tr:nth-child(2n) {
     background-color: rgb(157, 97, 97);
