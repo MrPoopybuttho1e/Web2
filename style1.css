@@ -84,6 +84,7 @@ a:hover {
 table{
     width: 600px;
 }
+
 tr:nth-child(2n) {
     background-color: rgb(157, 97, 97);
 }
